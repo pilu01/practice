@@ -21,8 +21,11 @@ def print_max_n(n):
     for i in range(10 ** n):
         print(i)
 
-# 调整数组顺序使奇数位于偶数前面
 
+import logging
 
-
-
+def use_logging(func):
+    def wrapper():
+        logging.warn("{} is running".format(func.__name__))
+        return func()
+    return wrapper

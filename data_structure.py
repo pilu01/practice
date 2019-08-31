@@ -69,3 +69,115 @@ def fib(num):
         a, b = b, a + b
     return a, b
 
+
+# 链表实现
+class Node():
+    def __init__(self, element=None):
+        self.e = element
+        self.next = None
+
+
+head = Node()
+n1 = Node(111)
+n2 = Node(222)
+n3 = Node(333)
+head.next = n1
+n1.next = n2
+n2.next = n3
+
+
+def append(node, element):
+    """
+    我们往 node 的末尾插入一个元素
+    :param node: 是一个node 实例
+    :param element:
+    :return:
+    """
+    n = node
+    while n.next is not None:
+        n = n.next
+    new_node = Node(element)
+    n.next = new_node
+
+
+def prepend(head, element):
+    n = Node(element)
+    n.next = head.next
+    head.next = n
+
+
+def pop(head):
+    """
+    删除最末尾的元素
+    :param head:
+    :return:
+    """
+    n1 = head
+    n = head
+    while n.next is not None:
+        n = n.next
+
+    while n1.next != n:
+        n1 = n1.next
+    n1.next = None
+    return n.e
+
+
+
+class HashTable(object):
+    def __init__(self):
+        self.table_size = 10007
+        self.table = [0] * self.table_size
+
+    def has_key(self, key):
+        pass
+
+    def __contains__(self, item):
+        return self.has_key(item)
+
+    def has_key(self, key):
+        index = self._index(key)
+        v = self.table[index]
+        if isinstance(v, list):
+            for kv in v:
+                if kv[0] == key:
+                    return True
+        return False
+
+    def _insert_at_index(self, index, key, value):
+        # 检查下标处是否第一次插入数据
+        v = self.table[index]
+        data = [key, value]
+        if isinstance(v, int):
+            self.table[index] = [data]
+        else:
+            self.table[index].append(data)
+
+    def add(self, key, value):
+        index = self._index(key)
+        self._insert_at_index(index, key, value)
+
+    def get(self, key, default_value=None):
+        index = self._index(key)
+        v = self.table[index]
+        if isinstance(v, list):
+            for kv in v:
+                if kv[0] == key:
+                    return kv[1]
+        return default_value
+
+
+
+    def _index(self, key):
+        return self._hash(key) % self.table_size
+
+    def _hash(self, s):
+        n = 1
+        f = 1
+        for i in s:
+            n += ord(i)*f
+            f *= 10
+        return n
+
+
+
