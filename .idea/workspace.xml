@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25da6f86-98f3-4f67-8ff9-f0c7061e41ad" name="Default" comment="update">
-      <change afterPath="$PROJECT_DIR$/类和对象/4_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/类和对象/attr_mro.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/类和对象/class_method.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/类和对象/self_ex.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/类和对象/super_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/类和对象/with_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter09/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter09/iterable.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/socket_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/socket_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter11/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter11/python_gil.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter11/python_thread.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter11/thread_queue.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,8 +66,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.with_test">
-    <configuration name="attr_mro" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.python_thread">
+    <configuration name="iterable" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -73,11 +75,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/类和对象" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter09" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/类和对象/attr_mro.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter09/iterable.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -86,7 +88,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="class_method" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="python_gil" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -94,11 +96,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/类和对象" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter11" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/类和对象/class_method.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter11/python_gil.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -107,7 +109,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="self_ex" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="python_thread" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -115,11 +117,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/类和对象" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter11" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/类和对象/self_ex.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter11/python_thread.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -171,19 +173,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.attr_mro" />
-      <item itemvalue="Python.class_method" />
-      <item itemvalue="Python.self_ex" />
       <item itemvalue="Python.super_test" />
       <item itemvalue="Python.with_test" />
+      <item itemvalue="Python.iterable" />
+      <item itemvalue="Python.python_gil" />
+      <item itemvalue="Python.python_thread" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.python_thread" />
+        <item itemvalue="Python.python_gil" />
+        <item itemvalue="Python.iterable" />
         <item itemvalue="Python.with_test" />
         <item itemvalue="Python.super_test" />
-        <item itemvalue="Python.self_ex" />
-        <item itemvalue="Python.class_method" />
-        <item itemvalue="Python.attr_mro" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567231496234</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update">
+      <created>1567302156484</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1567302156484</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
