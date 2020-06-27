@@ -1,13 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="25da6f86-98f3-4f67-8ff9-f0c7061e41ad" name="Default" comment="update">
-      <change afterPath="$PROJECT_DIR$/chapter11/concurrent_futures.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter11/thread_condition.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter11/thread_semaphore.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/letcode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/practice.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter09/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter09/iterable.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter10/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter10/socket_client.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter10/socket_server.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter11/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter11/concurrent_futures.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter11/python_gil.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter11/python_thread.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter11/thread_condition.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter11/thread_queue.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter11/thread_semaphore.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_structure.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafkademo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/third.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/类和对象/4_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/类和对象/attr_mro.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/类和对象/class_method.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/类和对象/self_ex.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/类和对象/super_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/类和对象/with_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/魔法方法/company.py" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,25 +84,19 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Python.concurrent_futures">
     <configuration name="concurrent_futures" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -233,16 +271,25 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update" />
     <option name="LAST_COMMIT_MESSAGE" value="update" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="674" y="158" width="1052" height="733" key="SettingsEditor" timestamp="1593251577644">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="674" y="158" width="1052" height="733" key="SettingsEditor/0.30.1920.1050@0.30.1920.1050" timestamp="1593251577644" />
+    <state x="777" y="450" width="540" height="191" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1593235332475">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="777" y="450" width="540" height="191" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1593235332475" />
   </component>
 </project>
