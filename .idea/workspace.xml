@@ -20,37 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25da6f86-98f3-4f67-8ff9-f0c7061e41ad" name="Default" comment="update">
-      <change afterPath="$PROJECT_DIR$/letcode.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/practice.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter09/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter09/iterable.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter10/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter10/socket_client.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter10/socket_server.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter11/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter11/concurrent_futures.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter11/python_gil.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter11/python_thread.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter11/thread_condition.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter11/thread_queue.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter11/thread_semaphore.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_structure.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafkademo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/third.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/类和对象/4_1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/类和对象/attr_mro.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/类和对象/class_method.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/类和对象/self_ex.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/类和对象/super_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/类和对象/with_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/魔法方法/company.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/letcode.py" beforeDir="false" afterPath="$PROJECT_DIR$/letcode.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +70,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager" selected="Python.concurrent_futures">
+  <component name="RunManager" selected="Python.letcode">
     <configuration name="concurrent_futures" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -120,7 +92,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="python_gil" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="letcode" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -128,11 +100,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter11" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter11/python_gil.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/letcode.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -205,19 +177,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.python_gil" />
       <item itemvalue="Python.python_thread" />
       <item itemvalue="Python.thread_condition" />
       <item itemvalue="Python.thread_semaphore" />
       <item itemvalue="Python.concurrent_futures" />
+      <item itemvalue="Python.letcode" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.letcode" />
         <item itemvalue="Python.concurrent_futures" />
         <item itemvalue="Python.thread_semaphore" />
         <item itemvalue="Python.thread_condition" />
         <item itemvalue="Python.python_thread" />
-        <item itemvalue="Python.python_gil" />
       </list>
     </recent_temporary>
   </component>
@@ -260,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1567348165636</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update">
+      <created>1593251768278</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1593251768278</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,10 +262,34 @@
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
+    <state width="1892" height="254" key="GridCell.Tab.0.bottom" timestamp="1593255466244">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1892" height="254" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1593255466244" />
+    <state width="1892" height="254" key="GridCell.Tab.0.center" timestamp="1593255466243">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1892" height="254" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1593255466243" />
+    <state width="1892" height="254" key="GridCell.Tab.0.left" timestamp="1593255466243">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1892" height="254" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1593255466243" />
+    <state width="1892" height="254" key="GridCell.Tab.0.right" timestamp="1593255466244">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1892" height="254" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1593255466244" />
     <state x="674" y="158" width="1052" height="733" key="SettingsEditor" timestamp="1593251577644">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="674" y="158" width="1052" height="733" key="SettingsEditor/0.30.1920.1050@0.30.1920.1050" timestamp="1593251577644" />
+    <state x="800" y="273" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1593251792763">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="800" y="273" width="800" height="535" key="Vcs.Push.Dialog.v2/0.30.1920.1050@0.30.1920.1050" timestamp="1593251792763" />
+    <state x="956" y="448" width="487" height="185" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593251692464">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="956" y="448" width="487" height="185" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.30.1920.1050@0.30.1920.1050" timestamp="1593251692464" />
     <state x="777" y="450" width="540" height="191" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1593235332475">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>

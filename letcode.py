@@ -1,7 +1,6 @@
 """
 letcode
 """
-import pytest
 
 
 def two_sum(nums, target):
@@ -11,11 +10,20 @@ def two_sum(nums, target):
     :param nums: list
     :param target: int
     :return: list
+    给定 nums = [2, 7, 11, 15], target = 9
+    因为 nums[0] + nums[1] = 2 + 7 = 9
+    所以返回 [0, 1]
     """
-    pass
+    hashmap = {}
+    for ind, num in enumerate(nums):
+        hashmap[num] = ind
+
+    for i, num in enumerate(nums):
+        j = hashmap.get(target - num)
+        if j is not None and i != j:
+            return [i, j]
 
 
-def test_two_sum():
-    pass
+
 
 
