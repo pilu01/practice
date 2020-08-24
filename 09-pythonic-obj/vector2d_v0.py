@@ -11,4 +11,3 @@ import math
 
 class Vector2d:
     typecode = 'd'  # <1>
-    
