@@ -55,3 +55,5 @@ if __name__ == '__main__':
     # 多线程
     p = Pool(5)
     p.map(query_article, datas)
+
+
