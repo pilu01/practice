@@ -20,9 +20,13 @@
 def bubbleSort(arr):
     l = len(arr)
     for i in range(1, l):
-        for j in range(0, l-1):
-            pass
-
-
-
+        for j in range(0, l-i):
+            if arr[j] > arr[j+1]:
+                arr[j], arr[j+1] = arr[j+1], arr[j]
     return arr
+
+
+
+def quickSort(arr, left, right):
+    point = arr[0]
+    
