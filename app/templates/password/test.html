@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>测试</title>
+</head>
+<body>
+<p><input type="text"></p>
+<p><input type="text"></p>
+<p><input type="text" readonly style="background-color: #eee;"></p>
+<p><button type="button">提交</button></p>
+<script src='https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.js'></script>
+
+<script>
+     window.onload = (() => {
+    document.querySelector("button").addEventListener("click", (ele)=>{
+        let v1 = document.querySelectorAll("input")[0].value;
+        let v2 = document.querySelectorAll("input")[1].value;
+        let res_ele = document.querySelectorAll("input")[2];
+
+        $.ajax({
+            url: '{{url_for('web.ces')}}',
+            type: 'post',
+             dataType: 'JSON',
+             data:{v1,v2},
+             success: (res) => {
+                    res_ele.value = res;
+                },
+                error:()=>{
+                    console.log("失败");
+                }
+        })
+    })
+
+    })
+</script>
+</body>
+</html>
