@@ -5,7 +5,7 @@
 # @Software: PyCharm
 
 
-# from app.models.base import db
+from app.models import db
 from flask_login import LoginManager
 from flask import Flask
 from flask_mail import Mail
@@ -33,7 +33,7 @@ def create_app():
     # login_manager.login_message = '请先登录或注册'
 
     # 注册SQLAlchemy
-    # db.init_app(app)
+    db.init_app(app)
 
     # mail.init_app(app)
 

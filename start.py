@@ -4,11 +4,13 @@
 # @FileName: start.py
 # @Software: PyCharm
 from app import create_app
+from app.models import db
+from app.models import short_url
 
 app = create_app()
 
-# with app.app_context():
-#     db.create_all()
+with app.app_context():
+    db.create_all(bind=['kk'])
 
 
 if __name__ == '__main__':

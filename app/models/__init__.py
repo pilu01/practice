@@ -6,7 +6,8 @@ __author__ = 'xhb'
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from flask_sqlalchemy import make_url
+from datetime import datetime
 
-
+db = SQLAlchemy()
 
 

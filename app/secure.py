@@ -2,6 +2,9 @@
 
 __author__ = 'xhb'
 
-
 SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://wdp:123456@localhost:3306/tt'
+
+SQLALCHEMY_BINDS = {
+    'kk': 'sqlite:///kk.db'
+}
 
