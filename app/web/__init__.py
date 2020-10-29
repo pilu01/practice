@@ -3,7 +3,8 @@
 __author__ = 'xhb'
 
 
-from flask import Blueprint, url_for, render_template, redirect, make_response, request, jsonify
+from flask import Blueprint, url_for, render_template,\
+    redirect, make_response, request, jsonify,current_app
 import json
 from datetime import datetime, timedelta
 
