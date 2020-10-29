@@ -13,3 +13,4 @@ web = Blueprint('web', __name__, template_folder='templates')
 
 
 from app.web import password
+from app.web import short_url
