@@ -7,17 +7,13 @@
 </head>
 <body>
 
-    <center>
-        <pre>
+<form class="form" method="POST" action="{{ url_for('web.short_url') }}">
     <h2> 短链服务</h2>
     <h3>精短有效服务</h3>
-
-    <input placeholder="输入网址"><button>提交</button>
-
-         </pre>
-    </center>
-
-
+    {{ form.hidden_tag() }}
+    {{ form.url.label }}{{ form.url() }}
+    {{ form.submit() }}
+</form>
 
 </body>
 </html>

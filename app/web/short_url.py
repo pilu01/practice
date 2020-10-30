@@ -6,6 +6,9 @@
 
 from app.web import *
 import hashlib
+from urllib.parse import urlparse
+from app.forms.short_url import UrlForm
+
 
 
 def get_md5(s):
@@ -14,16 +17,10 @@ def get_md5(s):
     m.update(s)
     return m.hexdigest()
 
-code_map = (
-    'a' , 'b' , 'c' , 'd' , 'e' , 'f' , 'g' , 'h' ,
-    'i' , 'j' , 'k' , 'l' , 'm' , 'n' , 'o' , 'p' ,
-    'q' , 'r' , 's' , 't' , 'u' , 'v' , 'w' , 'x' ,
-    'y' , 'z' , '0' , '1' , '2' , '3' , '4' , '5' ,
-    '6' , '7' , '8' , '9' , 'A' , 'B' , 'C' , 'D' ,
-    'E' , 'F' , 'G' , 'H' , 'I' , 'J' , 'K' , 'L' ,
-    'M' , 'N' , 'O' , 'P' , 'Q' , 'R' , 'S' , 'T' ,
-    'U' , 'V' , 'W' , 'X' , 'Y' , 'Z'
-)
+
+def get_url_host(url):
+    res = urlparse(url)
+    return res.netloc
 
 
 def get_hash_key(long_url):
@@ -34,10 +31,28 @@ def get_hash_key(long_url):
         n = int(hex[i*8:(i+1)*8], 16)
         for j in range(0, 6):
             x = 0x0000003D & n
-            s += code_map[x]
+            s += current_app.config['code_map'][x]
             n = n >> 5
         res.append(s)
-    return res
+    return res[0]
 
-a = get_hash_key("https://www.cnblogs.com/rickiyang/p/12178644.html")
-print(a)
+
+@web.route('/short_url', methods=['POST', 'GET'])
+def short_url():
+    form = UrlForm()
+    if request.method == 'POST':
+        if form.validate_on_submit():
+            host = get_url_host(form.url.data)
+            su = ShortUrl()
+            su.url = form.url.data
+            su.host = host
+            su.short = get_hash_key(form.url.data)
+            db.session.add(su)
+            db.session.commit()
+            return redirect(url_for('web.short_url'))
+        else:
+            flash("url地址不符合规范")
+    return render_template('short_url/index.html', form=form)
+
+
+
